@@ -102,5 +102,5 @@ def executar():
         print("💾 Formatação aplicada com sucesso.")
         pyautogui.press('enter')
 
-    except Exception as e:
+    except Exception as e: 
         print(f"❌ Ocorreu um erro: {e}")
